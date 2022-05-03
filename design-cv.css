@@ -94,8 +94,8 @@ a {
 }
 .portfolio-icons {
   background-color: rgba(235, 235, 235, 0.8);
-  width:35px;
-  height:35px;
+  width: 35px;
+  height: 35px;
   border-radius: 8px;
   text-align: center;
   font-size: 30px;
@@ -118,7 +118,7 @@ a {
   border-radius: 10px;
   background-color: white;
   margin-top: 40px;
-  gap:50px;
+  gap: 50px;
 }
 .pfblocfirstp {
   flex: 1;
@@ -127,7 +127,6 @@ a {
 .portfolio-pic {
   border-radius: 15px;
   width: 100%;
-
 }
 
 .portfolio-image-container {
@@ -136,11 +135,11 @@ a {
   align-items: center;
 }
 
-.portfolio-name{
+.portfolio-name {
   font-weight: bold;
   font-size: 20px;
 }
-.portfolio-tech{
+.portfolio-tech {
   margin: 15px 0px;
 }
 .portfolio-advanced {
@@ -163,7 +162,7 @@ a {
 }
 
 .portfolio-container {
-  padding:20px 0px 0px 20px;
+  padding: 20px 0px 0px 20px;
 }
 
 /* Contact */
