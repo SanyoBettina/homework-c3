@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+/*home page*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(244, 240, 240, 0.877);
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.introduction {
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.introduction-name {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  padding: 15px;
+  flex: 2;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.my-job {
+  margin-bottom: 20px;
+}
+.name {
+  font-weight: 550;
+  font-size: 35px;
+}
+
+.contact-me {
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.about-me-container {
+  display: flex;
+  border-top: 1px solid rgba(227, 221, 221, 0.916);
+  padding-top: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  margin-right: 130px;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.position {
+  font-weight: bold;
+}
+
+.experience-section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.job-title,
+.date {
+  font-size: 16px;
+}
+
+.home-portfolio-title {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.portfolio-icons {
+  background-color: rgba(235, 235, 235, 0.8);
+  width:35px;
+  height:35px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*portfolio*/
+
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(227, 221, 221, 0.916);
+  padding-top: 30px;
+  flex-wrap: wrap;
+}
+
+.pfblock {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 35px 0px 0px 30px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 40px;
+  gap:50px;
+}
+.pfblocfirstp {
+  flex: 1;
+}
+
+.portfolio-pic {
+  border-radius: 15px;
+  width: 100%;
+
+}
+
+.portfolio-image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-name{
+  font-weight: bold;
+  font-size: 20px;
+}
+.portfolio-tech{
+  margin: 15px 0px;
+}
+.portfolio-advanced {
+  background-color: white;
+  flex: 1 300px;
+  border-radius: 10px;
+}
+
+.portfolio-crypto {
+  background-color: white;
+  flex: 1 300px;
+  border-radius: 10px;
+}
+
+.portfolio-ex {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.portfolio-container {
+  padding:20px 0px 0px 20px;
+}
+
+/* Contact */
+
+.personal-date {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  flex-wrap: wrap;
+  padding: 90px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.aboutyou {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.personal-date-title {
+  display: flex;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  padding: 20px 100px 20px 0px;
+  outline: 0;
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(227, 221, 221, 0.916);
+  padding-top: 40px;
+  flex-wrap: wrap;
+}
+.icon {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.icon-style {
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.contact-title {
+  margin-right: 200px;
+}
+
+.form-fields-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.form-fields-container:not(:first-child) {
+  margin-top: 30px;
+}
+
+.form-item {
+  flex: 1 200px;
+}
+
+.form-item input,
+.form-item textarea {
+  width: 100%;
+}
+
+.form-item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.portfolio-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 35px;
+}
